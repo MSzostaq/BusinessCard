@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ['@typescript-eslint', 'simple-import-sort'],
-  extends: ['next'],
+  extends: ['next', 'import'],
   env: {
     es6: true,
     browser: true,
