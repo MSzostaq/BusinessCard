@@ -41,7 +41,7 @@ export default function Home() {
                 />
                 <SocialMediaLink href="/docs/cv.pdf" icon="cv" />
               </div>
-              <div className="mt-4 space-y-2 lg:mt-5 2xl:mt-6">
+              <ol className="mt-4 space-y-2 lg:mt-5 2xl:mt-6">
                 <p className="text-lg sm:text-xl md:text-2xl xl:text-3xl font-bold tracking-wide">
                   Technologies that I have experience with:
                 </p>
@@ -55,8 +55,8 @@ export default function Home() {
                   icon="css"
                 />
                 <TechnologiesItem copy="HTML" icon="html" />
-              </div>
-              <div className="mt-4 space-y-2 lg:mt-5 2xl:mt-6">
+              </ol>
+              <ol className="mt-4 space-y-2 lg:mt-5 2xl:mt-6 w-11/12 xl:w-3/5">
                 <p className="text-lg sm:text-xl md:text-2xl xl:text-3xl font-bold tracking-wide text-gray-900">
                   Developed:
                 </p>
@@ -64,7 +64,6 @@ export default function Home() {
                   copy="Marketing platform which allows influencers to find and
                       apply to campaigns designed by well known brands."
                   href="https://brandbuddies.pl"
-                  icon="link"
                   name="BrandBuddies"
                 />
                 <DevelopedProjectItem
@@ -72,10 +71,9 @@ export default function Home() {
                       panel which allows influencers to connect and advertise
                       their products on the marketplace."
                   href="https://fansi.pl"
-                  icon="link"
                   name="Fansi"
                 />
-              </div>
+              </ol>
             </div>
           </div>
         </div>

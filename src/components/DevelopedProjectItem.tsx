@@ -1,17 +1,14 @@
 import Link from 'next/link'
 
 import { Icon } from '@/components/Icon'
-import ICONS from '@/constants/icons'
 
 export function DevelopedProjectItem({
   copy,
-  icon,
   href,
   name,
 }: DevelopedProjectItemProps) {
   return (
-    <div className="flex items-start justify-start space-x-1 w-11/12 xl:w-3/5">
-      <Icon name={icon} className="w-6 h-6 sm:w-7 sm:h-7 xl:w-8 xl:h-8" />
+    <div className="flex items-start justify-start">
       <div className="flex flex-col">
         <Link
           href={href}
@@ -31,7 +28,6 @@ export function DevelopedProjectItem({
 
 type DevelopedProjectItemProps = {
   copy: string
-  icon: keyof typeof ICONS
   href: string
   name: string
 }
