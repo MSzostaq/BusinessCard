@@ -13,7 +13,7 @@ export default function Home() {
         <div className="flex items-start flex-col justify-center h-full w-full p-2 sm:p-6 lg:p-12 xl:p-20 2xl:p-32">
           <div className="flex flex-col lg:flex-row items-start lg:space-x-5 xl:space-x-8 w-full">
             <div className="w-full lg:w-2/5 flex lg:justify-end">
-              <div className="rounded-full w-40 h-40 md:w-44 md:h-44 mx-2 mt-6 lg:mx-0 md:mt-0 lg:mt-3">
+              <div className="rounded-full w-40 h-40 md:w-44 md:h-44 mx-2 mt-4 lg:mx-0 md:mt-0 lg:mt-3">
                 <Image
                   src={`/avatar.png`}
                   alt="avatar"
@@ -23,7 +23,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="w-full lg:w-3/5 justify-start lg:mt-8">
+            <div className="w-full lg:w-3/5 justify-start lg:mt-8 px-2">
               <h1 className="font-extrabold text-4xl sm:text-5xl md:text-6xl mt-4 xl:text-7xl text-gray-800 tracking-wide">
                 Maciej Szostak
               </h1>
