@@ -14,7 +14,7 @@ export default function Home() {
             <div className="w-full lg:w-2/5 flex lg:justify-end">
               <div className="rounded-full w-40 h-40 md:w-44 md:h-44">
                 <Image
-                  src={'/avatar.jpeg'}
+                  src={`/avatar.jpeg`}
                   alt="avatar"
                   layout="responsive"
                   width={100}
