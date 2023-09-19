@@ -23,7 +23,7 @@ export default function Home() {
               </div>
             </div>
             <div className="w-full lg:w-3/5 justify-start lg:mt-8">
-              <h1 className="font-extrabold text-4xl sm:text-5xl md:text-6xl mt-4 xl:text-7xl text-gray-900 tracking-wide">
+              <h1 className="font-extrabold text-4xl sm:text-5xl md:text-6xl mt-4 xl:text-7xl text-gray-800 tracking-wide">
                 Maciej Szostak
               </h1>
               <h2 className="tracking-wide text-xl sm:text-2xl md:text-3xl xl:text-4xl font-bold text-gray-700">
@@ -40,8 +40,8 @@ export default function Home() {
                 />
                 <SocialMediaLink href="/docs/cv.pdf" icon="cv" />
               </div>
-              <ol className="mt-4 space-y-2 lg:mt-5 2xl:mt-6">
-                <p className="text-lg sm:text-xl md:text-2xl xl:text-3xl font-bold tracking-wide">
+              <ol className="mt-4 lg:mt-5 2xl:mt-6">
+                <p className="mb-2 text-lg sm:text-xl md:text-2xl xl:text-3xl font-bold tracking-wide text-gray-800">
                   Technologies that I have experience with:
                 </p>
                 <TechnologiesItem copy="React / NextJS" icon="react" />
@@ -56,7 +56,7 @@ export default function Home() {
                 <TechnologiesItem copy="HTML" icon="html" />
               </ol>
               <ol className="mt-4 space-y-2 lg:mt-5 2xl:mt-6 w-11/12 xl:w-3/5">
-                <p className="text-lg sm:text-xl md:text-2xl xl:text-3xl font-bold tracking-wide text-gray-900">
+                <p className="text-lg sm:text-xl md:text-2xl xl:text-3xl font-bold tracking-wide text-gray-800">
                   Developed:
                 </p>
                 <DevelopedProjectItem

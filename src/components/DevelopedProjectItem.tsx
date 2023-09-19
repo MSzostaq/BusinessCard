@@ -15,12 +15,12 @@ export function DevelopedProjectItem({
           target="_blank"
           className="flex items-center space-x-2 w-max"
         >
-          <p className="text-base font-semibold text-gray-900 sm:text-lg md:text-xl xl:text-2xl underline">
+          <p className="mb-1 text-base font-bold text-gray-800 sm:text-lg lg:text-xl underline">
             {name}
           </p>
-          <Icon name="link" className="w-5 h-5" />
+          <Icon name="link" className="w-5 h-5 fill-gray-600" />
         </Link>
-        <p>{copy}</p>
+        <p className="text-gray-800 text-sm xl:text-base">{copy}</p>
       </div>
     </div>
   )
