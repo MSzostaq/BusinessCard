@@ -8,7 +8,7 @@ export function DevelopedProjectItem({
   name,
 }: DevelopedProjectItemProps) {
   return (
-    <div className="flex items-start justify-start mb-2">
+    <li className="flex items-start justify-start mb-2">
       <div className="flex flex-col">
         <Link
           href={href}
@@ -22,7 +22,7 @@ export function DevelopedProjectItem({
         </Link>
         <p className="text-gray-800 text-sm xl:text-base">{copy}</p>
       </div>
-    </div>
+    </li>
   )
 }
 

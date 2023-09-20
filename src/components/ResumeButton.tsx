@@ -4,7 +4,7 @@ import { Icon } from '@/components/Icon'
 
 export function ResumeButton() {
   return (
-    <li className="flex items-center justify-start w-full">
+    <li className="flex items-center justify-start w-full mb-6 ">
       <Link
         href="/docs/cv.pdf"
         target="_blank"
