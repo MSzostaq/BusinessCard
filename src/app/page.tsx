@@ -19,6 +19,7 @@ export default function Home() {
                   alt="avatar"
                   width={128}
                   height={128}
+                  priority
                   className="rounded-full w-40 h-40 md:w-44 md:h-44"
                 />
               </div>
