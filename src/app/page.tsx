@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <title>Frontend Developer - Maciej Szostak</title>
       <main className="overflow-x-hidden">
-        <div className="flex items-start flex-col justify-center h-full w-full p-2 sm:p-6 lg:p-12 xl:p-20 2xl:p-32">
+        <div className="flex items-cen flex-col justify-center h-full w-full p-2 sm:px-6 lg:p-12 xl:px-20 2xl:px-32">
           <div className="flex flex-col lg:flex-row items-start lg:space-x-5 xl:space-x-8 w-full">
             <div className="w-full lg:w-2/5 flex lg:justify-end">
               <div className="rounded-full w-40 h-40 md:w-44 md:h-44 mx-2 mt-4 lg:mx-0 md:mt-0 lg:mt-3">
@@ -45,7 +45,10 @@ export default function Home() {
                 <li className="mb-1 lg:mb-2 text-lg sm:text-xl md:text-2xl xl:text-3xl font-bold tracking-wide text-gray-800">
                   My tech stack
                 </li>
-                <TechnologiesItem copy="React / NextJS" icon="react" />
+                <TechnologiesItem
+                  copy="React / ReactNative / NextJS"
+                  icon="react"
+                />
                 <TechnologiesItem
                   copy="TypeScript / JavaScript"
                   icon="typescript"
@@ -54,7 +57,6 @@ export default function Home() {
                   copy="CSS3 / SASS / TailwindCSS / CSS in JS"
                   icon="css"
                 />
-                <TechnologiesItem copy="HTML" icon="html" />
               </ol>
               <ol className="mt-6 lg:mt-8 2xl:mt-10 w-11/12 xl:w-3/5">
                 <li className="mb-1 lg:mb-2 text-lg sm:text-xl md:text-2xl xl:text-3xl font-bold tracking-wide text-gray-800">
