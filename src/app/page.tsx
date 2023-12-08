@@ -35,10 +35,12 @@ export default function Home() {
                 <SocialMediaLink
                   href="https://github.com/MSzostaq"
                   icon="github"
+                  label="github"
                 />
                 <SocialMediaLink
                   href="https://www.linkedin.com/in/mszostaq/"
                   icon="linkedin"
+                  label="linkedin"
                 />
               </div>
               <ol className="mt-6 2xl:mt-7">
